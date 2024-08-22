@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+form div {
+    width: 300px;
+    margin: 20px auto;
+}
+form div input {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9f9f9f;
+    background-color: #e2e2e2;
+}
+form div input:focus {
+    outline: none;
+}
+form div .progress {
+    display: block;
+    background-color: #00897b;
+    width: 0;
+    height: 2px;
+    position: relative;
+    top: -2px;
+    transition: 0.5s;
+}
+form div .count {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    padding: 5px;
+}
+.zero {
+    font-weight: bold;
+    color: red;
+}
